@@ -82,8 +82,6 @@ class GroupBySubplot(PandasObject):
             :params: sharey: Pandas' native option to create subplots. Whether y-axes will be shared among subplots.
             :params: layout: Pandas' native option to create subplots. The layout of the plot: (rows, columns).
 
-            :param: title_formatter: Title formatter of each pair of groupby labels for subplots. By default use "{LABEL}={VALUE}".
-
             :params: **kwargs: Other options to create subplots.
         '''
         return GroupBySubplotImpl(

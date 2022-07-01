@@ -20,8 +20,6 @@ group.subplots(sharex = True).bar(rot = 1)
 
 ## How do parameters pass:
 
-The pandas-subplots extension acts mostly as an interface for kinds of parameters.
-
 The pandas-subplots extension acts only as a bridge between pandas' "create_subplots" and pandas' plotting accessors. All parameters are finally injected to these pandas framework.
 
 1. Parameters accepted in "group.subplots" are injected to "create_subplots", such as:
